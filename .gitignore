@@ -179,3 +179,18 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Yandex Disk browser backup — private runtime data
+.yandex-browser-profile/
+*browser-profile*/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+_backup_inventory.csv
+_backup_log.jsonl
+_download_diagnostics/
+_scan_diagnostics/
+YandexBackup/
+*.preview.png
+*.part
+*.part.png
